@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- ============================================================
+     Small Data Co. — 品牌頁（en）
+
+     這個檔案只是外殼。所有文案在 brand-data.js，改那個就好。
+       brand-data.js    內容（中英共用一份）
+       brand-render.js  渲染器
+       brand.css        樣式
+
+     嵌進別的頁面時，複製下面兩個掛載點與三個檔案的引用即可：
+       <section id="xsj-brand" data-lang="en"></section>
+       <footer  id="xsj-footer"></footer>
+
+     淺色底的站台改成
+       <section id="xsj-brand" class="xsj-brand--light" data-lang="en">
+     ============================================================ -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Small Data Co.</title>
+<meta name="description" content="Little tools that keep count of the parts of life nobody else does.">
+<meta property="og:title" content="Small Data Co.">
+<meta property="og:description" content="Little tools that keep count of the parts of life nobody else does.">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="brand.css">
+<style>html,body{margin:0;padding:0;background:#12161A}</style>
+</head>
+<body>
+
+<section id="xsj-brand" data-lang="en"></section>
+<footer  id="xsj-footer"></footer>
+
+<script src="brand-data.js"></script>
+<script src="brand-render.js"></script>
+</body>
+</html>

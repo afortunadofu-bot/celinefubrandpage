@@ -1,0 +1,53 @@
+BMC 直接貼用版 — 每段都是單行，不含硬斷行
+========================================
+bmc-copy.md 裡的版本為了閱讀有折行，貼進 BMC 會保留那些斷行，
+造成「至於你今年走進幾次 / live house」這種怪位置。用這份貼。
+段落之間的空行要保留，那是真的段落分隔。
+
+
+【中文 About】
+--------------------------------------------------------------
+小數據所是一人工作室。設計、開發、商店文案、回信，都是同一個人。
+
+會做這幾個 app，是從一個滿生活的念頭開始的：有些你很在意的事，從來沒有人幫你算過。
+
+銀行幫你算錢，公司幫你算工時，平台幫你算你看過哪些廣告。至於你今年走進幾次 live house、你的晚上實際上給了哪幾個人、一年一次的那天究竟省下多少，算出來其實很有意思，可惜對別人沒什麼用處，就一直空在那裡。
+
+我做的就是把這幾格空白填起來。
+
+三個 app 的統計都在你自己的手機裡完成。沒有上傳、沒有帳號、沒有伺服器。
+
+目前只有壽星日真的上架，Bandary 的 Android 版和 RelateStats 還在封測。固定要付的就是網域、主機和 Google Play 開發者帳號，金額都不大，我自己付了一陣子了。有人一起分擔的話，我就能把心思多放在把東西做完上面。
+
+
+【中文 Thank-you message】
+--------------------------------------------------------------
+謝謝你的咖啡。
+
+這筆會進到網域和主機的續費裡，讓壽星日、Bandary、RelateStats 繼續跑著。
+
+如果你有在用其中哪一個，覺得哪裡卡卡的，直接回我，我看得到。
+
+
+【English About】
+--------------------------------------------------------------
+Small Data Co. is a one-person studio. The design, the code, the store listings, the replies to your email — same person throughout.
+
+These apps started from a fairly ordinary thought: some of the things you care about have never been counted by anyone.
+
+Your bank keeps count of your money. Your employer keeps count of your hours. Platforms keep count of the ads you sat through. Then there is everything else — how many gigs you made it to this year, which handful of people your evenings went to, what you saved on the one day a year that belongs to you. All interesting to know, all worth nothing to anybody else, so it sits there uncounted.
+
+Filling in those few blanks is the whole job.
+
+Everything the apps work out stays on your own phone. No uploads, no accounts, no server.
+
+Only Shouxingri is properly on the store so far; Bandary's Android build and RelateStats are still in closed testing. The running costs are domains, hosting and the Google Play developer account — small amounts I have been covering for a while. A hand with them means more of my attention goes into getting the apps finished.
+
+
+【English Thank-you message】
+--------------------------------------------------------------
+Thank you for the coffee.
+
+It goes straight into domain and hosting renewals, which keeps Shouxingri, Bandary and RelateStats running.
+
+If you use one of them and something feels off, just reply to this — it reaches me.
