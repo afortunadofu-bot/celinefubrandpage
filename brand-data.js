@@ -52,14 +52,14 @@ window.BRAND = {
     {
       id: "bandary",
       sig: ["0111", "1001"],
-      url: "https://bandary.web.app",
-      shipped: false,
+      url: "https://play.google.com/store/apps/details?id=com.bandary.app&referrer=utm_source%3Dbrandsite%26utm_medium%3Dweb%26utm_campaign%3Dproducts",
+      shipped: true,
     },
     {
       id: "relatestats",
       sig: ["1100", "0111"],
-      url: null,
-      shipped: false,
+      url: "https://play.google.com/store/apps/details?id=com.relatestats.app&referrer=utm_source%3Dbrandsite%26utm_medium%3Dweb%26utm_campaign%3Dproducts",
+      shipped: true,
     },
   ],
 
@@ -114,12 +114,12 @@ window.BRAND = {
       bandary: {
         name: "Bandary",
         one: "記下你看過的每一場團，年底自動幫你算一份年度回顧。",
-        facts: ["量化：足跡", "Web 已上線／Android 預計 10 月底上架"],
+        facts: ["量化：足跡", "Web 已上線／2026 年 10 月上架 Google Play"],
       },
       relatestats: {
         name: "RelateStats",
         one: "看看你的時間都去了哪裡，給了哪些人。",
-        facts: ["量化：時間與注意力", "預計 10 月底上架"],
+        facts: ["量化：時間與注意力", "2026 年 10 月上架 Google Play"],
       },
     },
 
@@ -220,12 +220,12 @@ window.BRAND = {
       bandary: {
         name: "Bandary",
         one: "Logs the gigs you go to and turns them into a year in review come December.",
-        facts: ["Counts: footsteps", "Web live / Android arriving late October"],
+        facts: ["Counts: footsteps", "Web live / on Google Play since October 2026"],
       },
       relatestats: {
         name: "RelateStats",
         one: "Shows you where your hours have been going, and who they went to.",
-        facts: ["Counts: time and attention", "Arriving late October"],
+        facts: ["Counts: time and attention", "On Google Play since October 2026"],
       },
     },
 
