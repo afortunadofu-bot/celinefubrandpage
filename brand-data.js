@@ -50,6 +50,12 @@ window.BRAND = {
       shipped: true,
     },
     {
+      id: "haokang",
+      sig: ["1010", "0101"],
+      url: "https://tw-deals.pages.dev/?utm_source=brandsite&utm_medium=web&utm_campaign=products",
+      shipped: true,
+    },
+    {
       id: "bandary",
       sig: ["0111", "1001"],
       url: "https://play.google.com/store/apps/details?id=com.bandary.app&referrer=utm_source%3Dbrandsite%26utm_medium%3Dweb%26utm_campaign%3Dproducts",
@@ -110,6 +116,11 @@ window.BRAND = {
         name: "壽星日",
         one: "生日優惠一次看完，順便幫你算今年總共省了多少。",
         facts: ["量化：金錢", "2026 年 7 月上架"],
+      },
+      haokang: {
+        name: "好康地圖",
+        one: "全台超商、手搖飲、餐廳今天有什麼優惠，在地圖上找離你最近的。",
+        facts: ["量化：金錢", "2026 年 11 月上線"],
       },
       bandary: {
         name: "Bandary",
@@ -216,6 +227,11 @@ window.BRAND = {
         name: "Shouxingri",
         one: "Every birthday freebie in one list, and a running total of what you saved.",
         facts: ["Counts: money", "Published July 2026"],
+      },
+      haokang: {
+        name: "Haokang Map",
+        one: "Today's deals at convenience stores, drink shops and restaurants across Taiwan, with the nearest one on a map.",
+        facts: ["Counts: money", "Live since November 2026"],
       },
       bandary: {
         name: "Bandary",
