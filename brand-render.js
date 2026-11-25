@@ -321,7 +321,7 @@
     if (typeof fetch !== "function" || typeof document.querySelectorAll !== "function") return;
     var cells = document.querySelectorAll("[data-live]");
     if (!cells.length) return;
-    fetch("https://afortunadofu-bot.github.io/birthday-deals/stats.json", { cache: "no-cache" })
+    fetch("https://afortunadofu-bot.github.io/celine.fu/work/stats.json", { cache: "no-cache" })
       .then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
       .then(function (s) {
         Array.prototype.forEach.call(cells, function (cell) {

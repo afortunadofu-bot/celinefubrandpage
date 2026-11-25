@@ -79,7 +79,7 @@ window.BRAND = {
   /* --- 其他站。頁尾會跟著出現，改這裡就好 ------------------ */
   links: [
     { id: "me",        url: "https://afortunadofu-bot.github.io/celine.fu/" },
-    { id: "portfolio", url: "https://afortunadofu-bot.github.io/birthday-deals/" },
+    { id: "portfolio", url: "https://afortunadofu-bot.github.io/celine.fu/work/" },
   ],
 
   /* --- 成本。amount 為 null 代表還沒填，draft:false 時不輸出 --- */
