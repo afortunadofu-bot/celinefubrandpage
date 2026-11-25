@@ -148,6 +148,7 @@
       if (v == null) return;
 
       var cell = el("div", "xsj-stat");
+      if (st.live) cell.setAttribute("data-live", st.live);
       cell.appendChild(el("b", null, v));
       cell.appendChild(el("span", null, tplStat(L.stats[st.id] || "", st)));
 
@@ -290,7 +291,45 @@
     });
     fi.appendChild(nav);
 
+    // 其他站（個人網頁、作品集）。B.links 沒填就整列不出現。
+    if (B.links && B.links.length && L.siteLinks) {
+      var sn = el("nav", "xsj-apps xsj-sites");
+      var n = 0;
+      B.links.forEach(function (lk) {
+        var text = L.siteLinks[lk.id];
+        if (!text) return;
+        if (n) sn.appendChild(el("span", "xsj-sep", "·"));
+        var a = el("a", null, text);
+        a.href = lk.url;
+        a.rel = "noopener";
+        sn.appendChild(a);
+        n++;
+      });
+      if (n) fi.appendChild(sn);
+    }
+
     fi.appendChild(el("div", "xsj-meta", L.copyright));
     foot.appendChild(fi);
   }
+
+  /* ---------- 即時數字 ----------
+     數字只在作品集站算一次（analysis/build_site.py → stats.json），
+     這裡用 fetch 蓋上去。三個站同源，不需要 CORS。
+     抓不到就維持 brand-data.js 裡的值——寧可舊，不要空。 */
+  (function liveStats() {
+    // build.js 用的是最小 DOM，沒有 querySelectorAll 也沒有 fetch，所以先擋一層
+    if (typeof fetch !== "function" || typeof document.querySelectorAll !== "function") return;
+    var cells = document.querySelectorAll("[data-live]");
+    if (!cells.length) return;
+    fetch("https://afortunadofu-bot.github.io/birthday-deals/stats.json", { cache: "no-cache" })
+      .then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
+      .then(function (s) {
+        Array.prototype.forEach.call(cells, function (cell) {
+          var v = s[cell.getAttribute("data-live")];
+          var b = cell.querySelector("b");
+          if (v != null && b) b.textContent = Number(v).toLocaleString("en-US");
+        });
+      })
+      .catch(function () { /* 保留原本的數字 */ });
+  })();
 })();

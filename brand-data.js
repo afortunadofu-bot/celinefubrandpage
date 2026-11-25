@@ -71,9 +71,15 @@ window.BRAND = {
 
   /* --- 數字。product 欄位讓標籤跟著產品改名走 ------------------ */
   stats: [
-    { id: "deals",    value: "427",   product: "shouxingri", source: "後台", verified: true },
-    { id: "reports",  value: "2,261", product: "shouxingri", source: "後台", verified: true },
+    { id: "deals",    value: "427",   product: "shouxingri", source: "後台", verified: true, live: "offers" },
+    { id: "reports",  value: "2,261", product: "shouxingri", source: "後台", verified: true, live: "reports" },
     { id: "products", value: null,    compute: "count",      source: "自明", verified: true },
+  ],
+
+  /* --- 其他站。頁尾會跟著出現，改這裡就好 ------------------ */
+  links: [
+    { id: "me",        url: "https://afortunadofu-bot.github.io/celine.fu/" },
+    { id: "portfolio", url: "https://afortunadofu-bot.github.io/birthday-deals/" },
   ],
 
   /* --- 成本。amount 為 null 代表還沒填，draft:false 時不輸出 --- */
@@ -110,6 +116,7 @@ window.BRAND = {
     tagTracking: "0.34em",
     statement: "把沒人在記的生活，變成你看得懂的數據。",
     copyright: "© 2026 小數據所 · Celine Fu",
+    siteLinks: { me: "關於做的人", portfolio: "分析作品集" },
 
     products: {
       shouxingri: {
@@ -221,6 +228,7 @@ window.BRAND = {
     tagTracking: "0.2em",             // 拉丁字母用 0.2em，0.34em 會散掉
     statement: "Little tools that keep count of the parts of life nobody else does.",
     copyright: "© 2026 Small Data Co. · 小數據所 · Celine Fu",
+    siteLinks: { me: "About the maker", portfolio: "Analysis portfolio" },
 
     products: {
       shouxingri: {
