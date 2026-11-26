@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="小數據所">
+  <!-- 小數據所：沿用品牌的點陣記號（4×2 的點），金色那兩顆是亮著的。
+       16px 下剩下一組點的節奏，跟個人網頁（F）與作品集（長條）分得開。 -->
+  <rect width="64" height="64" rx="12" fill="#15140f"/>
+  <g fill="#f0ede5">
+    <circle cx="20" cy="24" r="4"/><circle cx="32" cy="24" r="4"/>
+    <circle cx="32" cy="40" r="4"/><circle cx="44" cy="40" r="4"/>
+  </g>
+  <g fill="#c9a24d">
+    <circle cx="44" cy="24" r="4"/><circle cx="20" cy="40" r="4"/>
+  </g>
+</svg>
